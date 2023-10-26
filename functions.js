@@ -4,9 +4,9 @@ function validate() {
 
 
     if (pass1.length < 8) {
-        alert("The length of the first password is less than 8 letters!")
+        alert("The length of the first password is less than 8 letters")
     } else if (pass2.length < 8) {
-        alert("The length of the second password is less than 8 letters!")
+        alert("The length of the second password is less than 8 letters")
     } else if (pass1 != pass2) {
         alert("Two passwords don't match!")
     } else {
